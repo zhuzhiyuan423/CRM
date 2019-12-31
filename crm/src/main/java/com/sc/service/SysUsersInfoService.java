@@ -54,6 +54,8 @@ public interface SysUsersInfoService {
     public PageInfo<SysUsersInfo> selectpage(Integer pageNum,Integer pageSize,SysUsersInfo info1);
     
     public ArrayList<SysUsersInfo> selectAllUsersInfoByGsid(BigDecimal gongsiid);
+    
+    SysUsersInfo selectUsersInfoOne(String sname);
 }
 
 	

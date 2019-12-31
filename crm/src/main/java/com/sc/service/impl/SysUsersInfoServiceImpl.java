@@ -216,4 +216,11 @@ SysUsersInfoService sysUsersInfoService;
 		
 	
 
+	@Override
+	public SysUsersInfo selectUsersInfoOne(String sname) {
+		// TODO Auto-generated method stub
+		return sysUsersInfoMapper.selectUsersInfoOne(sname).get(0);
+	}
+
+
 }
